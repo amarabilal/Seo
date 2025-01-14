@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.zigou-plex.fr
+
+# Sitemaps
+Sitemap: https://www.zigou-plex.fr/sitemap.xml
