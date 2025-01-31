@@ -1,4 +1,4 @@
-import 'app/globals.css' // Centralise tous les styles globaux
+import '../styles/globals.css' // Centralise tous les styles globaux
 import { Space_Grotesk } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
