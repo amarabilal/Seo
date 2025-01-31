@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Zigouplex - Blog Tech et Innovations 🚀**  
 
-## Getting Started
+![Zigouplex Banner](https://www.zigou-plex.fr/twitter-card.png)  
 
-First, run the development server:
+## **📌 Description du projet**  
+**Zigouplex** est un blog dédié aux nouvelles technologies, à l'innovation et aux tendances du futur. Développé avec **Next.js**, **TailwindCSS**, et optimisé pour le **SEO**, il propose des articles sur l'intelligence artificielle, l'IoT, la cybersécurité, la 5G et bien plus encore.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## **🔧 Technologies utilisées**  
+- **Framework** : [Next.js](https://nextjs.org/) (React + SSR & SSG)  
+- **Style** : [Tailwind CSS](https://tailwindcss.com/)  
+- **Base de données** : Contentlayer (Gestion des articles en Markdown)  
+- **SEO** : Sitemap automatique, balises OpenGraph, Twitter Cards  
+- **Déploiement** : [Vercel](https://vercel.com/)  
+- **Gestion de versions** : Git & GitHub  
+- **Commentaires** : [Giscus](https://giscus.app/)  
+- **Analytics** : Umami  
+
+---
+
+## **🚀 Installation & Déploiement**  
+
+### **🔹 Prérequis**
+- **Node.js** (v18+ recommandé)  
+- **npm** ou **yarn**  
+
+### **🛠 Installation locale**
+1. **Clonez le projet**  
+   ```bash
+   git clone https://github.com/amarabilal/Seo.git
+   cd Seo
+   ```
+
+2. **Installez les dépendances**  
+   ```bash
+   npm install
+   ```
+   ou  
+   ```bash
+   yarn install
+   ```
+
+3. **Lancez le projet en local**  
+   ```bash
+   npm run dev
+   ```
+   Le site sera accessible sur **`http://localhost:3000`** 🚀
+
+---
+
+### **🌍 Déploiement sur Vercel**
+Le projet est déjà configuré pour un déploiement sur **Vercel**. Pour le déployer :  
+1. Installez Vercel CLI :  
+   ```bash
+   npm install -g vercel
+   ```
+2. Connectez-vous à Vercel :  
+   ```bash
+   vercel login
+   ```
+3. Déployez :  
+   ```bash
+   vercel --prod
+   ```
+
+---
+
+## **📈 SEO & Performance**
+- **✅ Sitemap dynamique** (`sitemap.xml`)
+- **✅ Balises Open Graph et Twitter Cards**
+- **✅ Optimisation d'images avec `next/image`**
+- **✅ Temps de chargement optimisé (Lazy Loading, Code Splitting)**
+
+---
+
+## **📡 API et Services**
+### **🔹 Google Search Console**
+Ajoutez votre **sitemap.xml** à Google Search Console pour une meilleure indexation :
+```
+https://www.zigou-plex.fr/sitemap.xml
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **🔹 Analytics**
+Zigouplex utilise [Umami Analytics](https://umami.is/) pour un suivi anonyme des visiteurs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## **📌 Améliorations futures**
+✅ Ajouter un moteur de recherche interne 🔍  
+✅ Optimiser le **Lighthouse Score** pour un SEO parfait 🚀  
+✅ Améliorer l'accessibilité et la PWA 🏆  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## **📝 Contribuer au projet**
+1. **Fork** le repo  
+2. **Créez une branche** (`git checkout -b feature-ma-nouvelle-fonctionnalité`)  
+3. **Commitez vos changements** (`git commit -m "Ajout d'une nouvelle fonctionnalité"`)  
+4. **Poussez votre code** (`git push origin feature-ma-nouvelle-fonctionnalité`)  
+5. **Ouvrez une Pull Request !** 🎉  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## **📜 Licence**
+Ce projet est sous licence **MIT** 📝.  
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 **Zigouplex** - [zigou-plex.fr](https://www.zigou-plex.fr)  
